@@ -28,6 +28,7 @@ public class NavigatorActions : MonoBehaviour
 
     public void ActionController(Vector3 scaledLocalPositionDelta)
     {
+        Debug.Log("action conto@@@@@");
         //transform.position = worldObjectPosition;
         if (RotateX)
         {
